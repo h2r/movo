@@ -13,7 +13,7 @@ wall tap.
         This will prevent it from jumping from AP to AP which increases connection latency. Use the following
         command:
 3. Use the following command to add a route between RLAB's IP address space and the 10.66.171.* IP address 
-space that Movo uses. `sudo route add -net 10.66.171.0 netmask 255.255.255.0 gw [your IP on RLAB] dev [network interface]`.
+space that Movo uses. `sudo route add -net 10.66.171.0 netmask 255.255.255.0 gw [movo IP on RLAB] dev [network interface]`.
 The network interface and IP can be found by running ifconfig (network interface looks like eth0 or wlan3).
 4. Edit your ~/.bashrc file to export your ROS_IP as the IP address of your computer (on RLAB). You can find this
 IP address by running ifconfig.
