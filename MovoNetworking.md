@@ -35,3 +35,7 @@ problem with your ROS_MASTER_URI and/or ROS_IP.
 Symptoms of this are that you can list and echo topics, but Ein and Movo joystick control won't work.
 5. Check if your ROS_MASTER_URI is correct. It should be http://movo2:11311 or http://10.66.171.1:11311.
 6. Reboot your computer and the Movo to restart all ROS Nodes and clear all network caches.
+
+
+Things to know:
+The ROS_IP is set in the file ~/Software/kinova/kinova-movo/movo_network/movo_network_config.bash. It is hard-coded to a value, so if ROS complains about either the Movo or this computer's IP address, this is where you want to look.
