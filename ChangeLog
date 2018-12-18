@@ -1,0 +1,2 @@
+The Costmap inflation radius was drastically decreased to allow Movo to navigate around our lab. This parameter is located in 
+~/movo_ws/src/kinova-movo/movo_demos/config/2d_nav/costmap_common_params.yaml. It was originally set to ~0.5.
